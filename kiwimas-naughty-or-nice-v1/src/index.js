@@ -12,13 +12,13 @@ export default {
 
         const now = Math.floor(Date.now() / 1000);
 
-        const confirmNaughty = `https://warpcast.com/~/compose?text=${encodeURIComponent(`@[tag a friend] join me on the naughty list! Where's my coal? https://kiwimas.com/frame/`)}`
+        const confirmNaughty = `https://warpcast.com/~/compose?text=${encodeURIComponent(`@[tag your naughtiest follower] join me on the naughty list! Where's my coal? https://kiwimas.com/frame/`)}`
 
-        const confirmNice = `https://warpcast.com/~/compose?text=${encodeURIComponent(`@[tag a friend] join me on the nice list! Where's my $kiwimas? https://kiwimas.com/frame/`)}`
+        const confirmNice = `https://warpcast.com/~/compose?text=${encodeURIComponent(`@[tag your nicest follower] join me on the nice list! Where's my $kiwimas? https://kiwimas.com/frame/`)}`
 
-        const switchToNaughty = `https://warpcast.com/~/compose?text=${encodeURIComponent(`Oh no, I'm on the nice list. @[tag a friend] tell Santa I'm naughty! https://kiwimas.com/frame/`)}`
+        const switchToNaughty = `https://warpcast.com/~/compose?text=${encodeURIComponent(`Oh no, I'm on the nice list. @[tag your naughtiest follower] tell Santa I'm naughty! https://kiwimas.com/frame/`)}`
 
-        const switchToNice = `https://warpcast.com/~/compose?text=${encodeURIComponent(`Oh no, I'm on the naughty list. @[tag a friend] tell Santa I'm nice! https://kiwimas.com/frame/`)}`
+        const switchToNice = `https://warpcast.com/~/compose?text=${encodeURIComponent(`Oh no, I'm on the naughty list. @[tag your nicest follower] tell Santa I'm nice! https://kiwimas.com/frame/`)}`
 
         return new Response(
             `
